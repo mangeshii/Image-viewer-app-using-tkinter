@@ -11,7 +11,7 @@ my_img3 = ImageTk.PhotoImage(Image.open('cat2.jpeg'))
 my_img4 = ImageTk.PhotoImage(Image.open('cat3.jpeg'))
 my_img5 = ImageTk.PhotoImage(Image.open('cat4.jpeg'))
 my_img6 = ImageTk.PhotoImage(Image.open('cat5.jpeg'))
-
+  
 
 my_label = Label(image=my_img1)
 my_label.grid(row=0, column=0, columnspan=3)
