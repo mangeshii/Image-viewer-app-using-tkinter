@@ -26,7 +26,7 @@ my_list = [my_img1, my_img2, my_img3, my_img4, my_img5, my_img6]
 
 def forward(number):
     global my_label
-    my_label.grid_forget()
+    my_label.grid_forget() 
     my_label = Label(image=my_list[number-1])
     my_label.grid(row=0, column=0, columnspan=3)
 
